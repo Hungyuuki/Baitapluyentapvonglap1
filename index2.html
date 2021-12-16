@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.log("bắt đầu chuong trinh")
+    let temP = parseFloat(prompt("Nhiệt độ cơ thể của bạn: "))
+    while (temP<20 || temP>100) { console.log("bắt đầu chạy while")
+        if (temP < 20) { console.log("th1")
+            alert("Yêu cầu tăng nhiệt độ");
+        } else if (temP > 100) { console.log("th2")
+            alert("Yêu cầu giảm nhiệt độ");
+        }
+    }
+</script>
+</body>
+</html>

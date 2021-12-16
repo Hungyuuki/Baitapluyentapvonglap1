@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+</head>
+<body>
+<script>
+    let numBe = 0, numAf = 1, numResult; let num = 0; Sum=0;
+    while (num<20) {
+        numResult = numAf;
+        numAf += numBe;
+        numBe = numResult;
+        Sum += numResult;
+        num++;
+        document.write("Số thứ " +num+ " là " +numResult+" và tổng bằng "+ Sum+"<br>");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+</head>
+<body>
+<script>
+    let numBe = 0, numAf = 1, numResult; let num = 20;
+    while (num>=0) {
+        numResult = numAf;
+        numAf = numAf + numBe;
+        numBe = numResult;
+        num--;
+        console.log(numResult) /*hiển thị*/
+    }
+</script>
+</body>
+</html>
